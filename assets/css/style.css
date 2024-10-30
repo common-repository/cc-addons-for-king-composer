@@ -1,0 +1,436 @@
+/* Global:Style
+-------------------------------------------------------------------- */
+.clearboth, .clearboth:after {
+    width: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+    overflow: hidden;
+    height: 0;
+}
+.clearboth:after {
+    height: 0;
+    content: ' ';
+    font-size: 0;
+    line-height: 0;
+}
+
+
+
+/* Shortcode:Icon Box
+-------------------------------------------------------------------- */
+.mk-box-icon {
+  position: relative;
+  -webkit-backface-visibility: hidden;
+}
+.mk-box-icon p {
+  position: relative;
+  margin-bottom: 0;
+}
+.mk-box-icon h4 i {
+  text-transform: none !important;
+}
+.mk-box-icon .icon-box-readmore {
+  position: relative;
+  float: right;
+  margin: 10px 15px 10px 0;
+  font-size: 12px;
+}
+.mk-box-icon .icon-box-readmore i {
+  position: relative;
+  padding-left: 8px;
+  vertical-align: middle;
+  font-size: 16px;
+  line-height: 16px;
+}
+.mk-box-icon.cc_minimal-style.vc_span4 {
+  padding-right: 10px;
+}
+.mk-box-icon.cc_minimal-style .mk-main-ico {
+  display: inline-block;
+  margin-right: 12px;
+  float: left;
+  text-align: center;
+}
+.mk-box-icon.cc_minimal-style .mk-main-ico.cc_small {
+  font-size: 16px;
+  line-height: 16px;
+}
+.mk-box-icon.cc_minimal-style .mk-main-ico.cc_medium {
+  font-size: 24px;
+  line-height: 24px;
+}
+.mk-box-icon.cc_minimal-style .mk-main-ico.cc_large {
+  font-size: 32px;
+  line-height: 32px;
+}
+.mk-box-icon.cc_minimal-style .mk-main-ico.cc_extra_large {
+  font-size: 48px;
+  line-height: 48px;
+}
+.mk-box-icon.cc_minimal-style .circled-icon {
+  text-align: center;
+  border-radius: 50%;
+}
+.mk-box-icon.cc_minimal-style .circled-icon.cc_small {
+  line-height: 42px;
+  width: 42px;
+  height: 42px;
+}
+.mk-box-icon.cc_minimal-style .circled-icon.cc_medium {
+  line-height: 64px;
+  width: 64px;
+  height: 64px;
+}
+.mk-box-icon.cc_minimal-style .circled-icon.cc_large {
+  line-height: 86px;
+  width: 86px;
+  height: 86px;
+}
+.mk-box-icon.cc_minimal-style .circled-icon.cc_extra_large {
+  line-height: 110px;
+  width: 110px;
+  height: 110px;
+}
+.mk-box-icon.cc_minimal-style h4 {
+  margin-bottom: 15px !important;
+}
+.mk-box-icon.cc_minimal-style h4.icon-circled {
+  display: block;
+  height: auto;
+}
+.mk-box-icon.cc_minimal-style h4.icon-circled span {
+  display: block;
+  padding-top: 5px;
+}
+.mk-box-icon.cc_boxed-style .icon-box-cc_boxed {
+  position: relative;
+  border: 1px solid #e0e0e0;
+  background-color: #f4f4f4;
+  text-align: center;
+  border-radius: 3px;
+}
+.mk-box-icon.cc_boxed-style .icon-box-cc_boxed.top {
+  margin-top: 35px;
+  padding: 70px 30px 30px;
+}
+.mk-box-icon.cc_boxed-style .icon-box-cc_boxed.top .mk-main-ico {
+  top: -34px;
+  left: 50%;
+  margin-left: -32px;
+}
+.mk-box-icon.cc_boxed-style .icon-box-cc_boxed.left {
+  margin-left: 30px;
+  padding: 30px 30px 30px 60px;
+  text-align: left;
+}
+.mk-box-icon.cc_boxed-style .icon-box-cc_boxed.left .mk-main-ico {
+  top: 50%;
+  left: -34px;
+  margin-top: -34px;
+}
+.mk-box-icon.cc_boxed-style .icon-box-readmore {
+  display: inline-block;
+  float: none;
+}
+.mk-box-icon.cc_boxed-style h4 {
+  margin-bottom: 20px;
+  color: #222222 !important;
+}
+.mk-box-icon.cc_boxed-style .mk-main-ico {
+  position: absolute;
+  display: block;
+  width: 65px;
+  height: 65px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 32px;
+  line-height: 65px;
+  border-radius: 50%;
+}
+.mk-box-icon.cc_boxed-style .mk-main-ico:before {
+  position: relative;
+}
+.mk-box-icon.cc_ultimate .left-side {
+  padding-right: 15px;
+}
+.mk-box-icon.cc_ultimate-style .left-side .mk-main-ico {
+  display: block;
+  float: left;
+}
+.mk-box-icon.cc_ultimate-style .left-side .mk-main-ico.cc_small {
+  width: 32px;
+}
+.mk-box-icon.cc_ultimate-style .left-side .mk-main-ico.cc_medium {
+  width: 48px;
+}
+.mk-box-icon.cc_ultimate-style .left-side .mk-main-ico.cc_large {
+  width: 64px;
+}
+.mk-box-icon.cc_ultimate-style .left-side .mk-main-ico.cc_extra_large {
+  width: 128px;
+}
+.mk-box-icon.cc_ultimate .left-side .box-detail-wrapper {
+  display: block;
+}
+.mk-box-icon.cc_ultimate .left-side .box-detail-wrapper.cc_small-size {
+  margin-left: 48px;
+}
+.mk-box-icon.cc_ultimate .left-side .box-detail-wrapper.cc_medium-size {
+  margin-left: 65px;
+}
+.mk-box-icon.cc_ultimate .left-side .box-detail-wrapper.cc_large-size {
+  margin-left: 84px;
+}
+.mk-box-icon.cc_ultimate .left-side .box-detail-wrapper.cc_extra_large-size {
+  margin-left: 158px;
+}
+.mk-box-icon.cc_ultimate .top-side {
+  text-align: center;
+}
+.mk-box-icon.cc_ultimate .top-side .mk-main-ico {
+  display: block;
+}
+.mk-box-icon.cc_ultimate .top-side .mk-main-ico.cc_small {
+  margin-bottom: 8px;
+}
+.mk-box-icon.cc_ultimate .top-side .mk-main-ico.cc_medium {
+  margin-bottom: 10px;
+}
+.mk-box-icon.cc_ultimate .top-side .mk-main-ico.cc_large {
+  margin-bottom: 12px;
+}
+.mk-box-icon.cc_ultimate .top-side .mk-main-ico.cc_extra_large {
+  margin-bottom: 15px;
+}
+.mk-box-icon.cc_ultimate .top-side h4 {
+  margin-bottom: 22px;
+}
+.mk-box-icon.cc_ultimate .top-side .icon-box-readmore {
+  display: inline-block;
+  float: none;
+}
+.mk-box-icon.cc_ultimate .mk-main-ico.cc_small {
+  font-size: 32px;
+  line-height: 32px;
+}
+.mk-box-icon.cc_ultimate .mk-main-ico.cc_medium {
+  font-size: 48px;
+  line-height: 48px;
+}
+.mk-box-icon.cc_ultimate .mk-main-ico.cc_large {
+  font-size: 64px;
+  line-height: 64px;
+}
+.mk-box-icon.cc_ultimate .mk-main-ico.cc_extra_large {
+  font-size: 128px;
+  line-height: 128px;
+}
+.mk-box-icon .rounded-circle.left-side .cc_small-size {
+  margin-left: 90px !important;
+}
+.mk-box-icon .rounded-circle.left-side .cc_medium-size {
+  margin-left: 120px !important;
+}
+.mk-box-icon .rounded-circle.top-side .cc_small {
+  margin-bottom: 26px !important;
+}
+.mk-box-icon .rounded-circle.top-side .cc_medium {
+  margin-bottom: 34px !important;
+}
+.mk-box-icon .rounded-circle .mk-main-ico {
+  display: inline-block !important;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 60px;
+  text-align: center;
+}
+.mk-box-icon .rounded-circle .cc_small {
+  width: 60px !important;
+  height: 60px !important;
+  line-height: 60px !important;
+  font-size: 24px !important;
+}
+.mk-box-icon .rounded-circle .cc_medium {
+  height: 84px !important;
+  width: 84px !important;
+  line-height: 84px !important;
+  font-size: 32px !important;
+}
+.mk-box-icon.cc_ultimate-style .left-side .mk-main-ico.cc_extra_large {
+    width: 128px;
+    height: 128px;
+    line-height: 128px;
+    font-size: 105px;
+}
+.mk-box-icon.cc_ultimate-style .top-side .mk-main-ico.cc_extra_large {
+    width: 128px;
+    height: 128px;
+    line-height: 128px;
+    font-size: 105px;
+}
+.mk-box-icon.cc_ultimate-style .left-side .mk-main-ico.cc_large {
+    width: 64px;
+    height: 64px;
+    line-height: 64px;
+    font-size: 53px;
+}
+.mk-box-icon.cc_ultimate-style .top-side .mk-main-ico.cc_large {
+    width: 64px;
+    height: 64px;
+    line-height: 64px;
+    font-size: 53px;
+}
+.cc_ultimate-style .box-detail-wrapper {
+    display: table;
+}
+.cc_ultimate-style .left-side .box-detail-wrapper.cc_large-size {
+    margin-left: 84px;
+}
+.cc_ultimate-style .left-side .box-detail-wrapper.cc_extra_large-size {
+    margin-left: 158px;
+}
+.mk-box-icon .rounded-circle .mk-main-ico {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 60px;
+    text-align: center;
+    display: block !important;
+    align-content: center;
+    margin: 0 auto;
+}
+.mk-box-icon.cc_ultimate-style .top-side {
+    text-align: center;
+}
+.mk-box-icon.cc_ultimate-style .top-side .icon-box-readmore {
+    display: inline-block;
+    float: none;
+}
+.mk-box-icon.cc_boxed-style .icon-box-boxed.top {
+    margin-top: 35px;
+    padding: 70px 30px 30px;
+}
+.mk-box-icon.cc_boxed-style .icon-box-boxed {
+    position: relative;
+    border: 1px solid #e0e0e0;
+    background-color: #f4f4f4;
+    text-align: center;
+    border-radius: 3px;
+}
+.mk-box-icon.cc_boxed-style .icon-box-boxed.top .mk-main-ico {
+    top: -34px;
+    left: 50%;
+    margin-left: -32px;
+}
+.mk-box-icon.cc_boxed-style .icon-box-boxed.left .mk-main-ico {
+    top: 50%;
+    left: -34px;
+    margin-top: -34px;
+}
+.mk-box-icon.cc_boxed-style .icon-box-boxed.left {
+    margin-left: 30px;
+    padding: 30px 30px 30px 60px;
+    text-align: left;
+}
+
+body .horizon-swiper .horizon-next, body .horizon-swiper .horizon-prev {
+  background-size: 60px;
+}
+
+
+    
+        /* jssor slider arrow navigator skin 02 css */
+        /*
+        .jssora02l                  (normal)
+        .jssora02r                  (normal)
+        .jssora02l:hover            (normal mouseover)
+        .jssora02r:hover            (normal mouseover)
+        .jssora02l.jssora02ldn      (mousedown)
+        .jssora02r.jssora02rdn      (mousedown)
+        */
+        .jssora02l, .jssora02r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 55px;
+            height: 55px;
+            cursor: pointer;
+            background: url('img/a02.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora02l { background-position: -3px -33px; }
+        .jssora02r { background-position: -63px -33px; }
+        .jssora02l:hover { background-position: -123px -33px; }
+        .jssora02r:hover { background-position: -183px -33px; }
+        .jssora02l.jssora02ldn { background-position: -3px -33px; }
+        .jssora02r.jssora02rdn { background-position: -63px -33px; }
+
+        /* jssor slider thumbnail navigator skin 03 css */
+        /*
+        .jssort03 .p            (normal)
+        .jssort03 .p:hover      (normal mouseover)
+        .jssort03 .pav          (active)
+        .jssort03 .pdn          (mousedown)
+        */
+        
+        .jssort03 .p {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 62px;
+            height: 32px;
+        }
+        
+        .jssort03 .t {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
+        .jssort03 .w, .jssort03 .pav:hover .w {
+            position: absolute;
+            width: 60px;
+            height: 30px;
+            border: white 1px dashed;
+            box-sizing: content-box;
+        }
+        
+        .jssort03 .pdn .w, .jssort03 .pav .w {
+            border-style: solid;
+        }
+        
+        .jssort03 .c {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 62px;
+            height: 32px;
+            background-color: #000;
+        
+            filter: alpha(opacity=45);
+            opacity: .45;
+            transition: opacity .6s;
+            -moz-transition: opacity .6s;
+            -webkit-transition: opacity .6s;
+            -o-transition: opacity .6s;
+        }
+        
+        .jssort03 .p:hover .c, .jssort03 .pav .c {
+            filter: alpha(opacity=0);
+            opacity: 0;
+        }
+        
+        .jssort03 .p:hover .c {
+            transition: none;
+            -moz-transition: none;
+            -webkit-transition: none;
+            -o-transition: none;
+        }
+        
+        * html .jssort03 .w {
+            width /**/: 62px;
+            height /**/: 32px;
+        }
